@@ -45,7 +45,12 @@ public class introMover
         location = mover.transform.position;
         //Each frame choose a new Random number 0,1,2,3, 
         //If the number is equal to one of those values, take a step
-        int choice = Random.Range(0, 4);
+        int choice = Random.Range(0, 10);
+
+        int[] choiceArray = new[] { 0, 0, 1, 2, 2, 3, 0, 1, 2, 3};
+
+        choice = choiceArray[choice];
+
         if (choice == 0)
         {
             location.x++;
@@ -59,7 +64,7 @@ public class introMover
         {
             location.y++;
         }
-        else
+        else if (choice == 2)
         {
             location.y--;
         }
