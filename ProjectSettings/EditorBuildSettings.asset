@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ChapterIntroductionExercise7Deem.unity
+    guid: 3133934bdfb2ad749804094ada293dbb
+  - enabled: 0
+    path: Assets/Scenes/ChapterIntroductionExercise5Deem.unity
+    guid: 0f93148264711034aac2e49e388a30ca
+  - enabled: 0
+    path: Assets/Scenes/ChapterIntroductionExercise3Deem.unity
+    guid: 8ff845a24936c7548aab141cdf155f65
+  - enabled: 1
+    path: Assets/Scenes/ChapterIntroductionExercise1Deem.unity
+    guid: 79a750c1252cf3442a4d85a5683f75cd
   m_configObjects: {}
